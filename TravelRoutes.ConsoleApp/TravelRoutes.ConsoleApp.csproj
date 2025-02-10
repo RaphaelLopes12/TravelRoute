@@ -1,14 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <ItemGroup>
-    <ProjectReference Include="..\TravelRoutes.Application\TravelRoutes.Application.csproj" />
-  </ItemGroup>
-
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TravelRoutes.Application\TravelRoutes.Application.csproj" />
+    <ProjectReference Include="..\TravelRoutes.Infrastructure\TravelRoutes.Infrastructure.csproj" />
+  </ItemGroup>
 
 </Project>
